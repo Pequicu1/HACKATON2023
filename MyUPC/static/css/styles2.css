@@ -4,13 +4,14 @@
   }
   
   /* Remove margins and padding from the list */
-  ul {
+  #myUL {
     margin: 0;
     padding: 0;
   }
   
   /* Style the list items */
-  ul li {
+  #myUL .todo {
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
     position: relative;
@@ -27,24 +28,24 @@
   }
   
   /* Set all odd list items to a different color (zebra-stripes) */
-  ul li:nth-child(odd) {
+  #myUL .todo:nth-child(odd) {
     background: #f9f9f9;
   }
   
   /* Darker background-color on hover */
-  ul li:hover {
+  #myUL .todo:hover {
     background: #ddd;
   }
   
   /* When clicked on, add a background color and strike out text */
-  ul li.checked {
+  #myUL .todo.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;
   }
   
   /* Add a "checked" mark when clicked on */
-  ul li.checked::before {
+  #myUL .todo.checked::before {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     content: '';
     position: absolute;
