@@ -166,4 +166,22 @@
     left: 1450px;
 
     }
-  
+    .btn3 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin-top: 0px;
+      position: absolute;
+    top: 190px;
+    left: 1450px;
+
+    }
+
+
+
+    .tableAI {
+      width: 10%;
+      border-collapse: collapse;
+
+    }
