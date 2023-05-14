@@ -1,0 +1,65 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>MyUPC</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   </head>
+   <body>
+
+    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #dbd9d9;">
+            <img src="{% static '/Img/myupc.png'%}" width="90" height="90" class="d-inline-block align-top" alt="">
+            <a class="navbar-brand" href="#">    MyUPC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="{% url 'home'%}">Calendar <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'todo'%}">ToDO's</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'grades'%}">MyGrades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'nextstep'%}">NextStepAI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'us'%}">About Us</a>
+                </li>
+              </ul>
+              <button class="btn btn-outline-success" href="{% url 'todo'%}"  type="button" style="position: absolute; right: 1%;">Login with UPC </button>
+            </div>
+            <img src="{% static '/Img/1200px-Logotip_FIB.svg.png'%}" width="90" height="90" class="d-inline-block align-top" alt="" style="position: absolute; right: 1%; top: 890%;">
+
+          </nav>
+   
+
+      
+          <div class = "container" >
+            <div class="row">
+                <div class="col-md-4" >
+                   <header>
+                       <h1>About Us</h1>
+                   </header>
+                </div>
+                <div class="col-md-4">
+                   
+                </div>
+                <div class="col-md-4">
+                   
+                </div>
+            </div>
+            <main>
+               <p>We are a group of hackers happy to help our frinds at university by offering a platform that provides an easy way to organize their days. On top on that, an AI will help the students to choose their academic future based on their results on the subjects previously coursed.</p> 
+            </main>
+            <img src="{% static '/Img/group.png.jpg'%}" width="550" height="400" alt="" style="position: absolute; right: 35%; top: 40%;">
+            <footer>
+       </div>
+     </footer>
+  </body>
+</html>

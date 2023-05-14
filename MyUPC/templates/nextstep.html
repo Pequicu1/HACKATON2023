@@ -1,0 +1,251 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="{% static '/css/styles.css'%}">
+      <title>MyUPC</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   </head>
+   <body>
+
+    <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #dbd9d9;">
+            <img src="{% static '/Img/myupc.png'%}" width="90" height="90" class="d-inline-block align-top" alt="">
+            <a class="navbar-brand" href="#">    MyUPC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="{% url 'home'%}">Calendar <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'todo'%}">ToDO's</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'grades'%}">MyGrades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'nextstep'%}">NextStepAI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'us'%}">About Us</a>
+                </li>
+              </ul>
+              <button class="btn btn-outline-success" href="login.html"  type="button" style="position: absolute; right: 1%;">Login with UPC </button>
+            </div>
+
+          </nav>
+
+          <div class = "container" >
+
+            <main>
+                <h2>Marks</h2>
+            </main>
+            <table class="tableAI" style="position: absolute, up: 1%;">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">F</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">FM</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">IC</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PRO1</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+  
+  
+                  <tr>
+                    <th scope="row">M1</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">M2</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PRO2</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">EC</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+  
+  
+                  <tr>
+                    <th scope="row">EDA</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">BD</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">CI</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PE</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+  
+                  </tr>
+  
+                  <tr>
+                    <th scope="row">SO</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">AC</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">EEE</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">IDI</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+  
+                  <tr>
+                    <th scope="row">IES</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">XC</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PAR</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">PROP</th>
+                    <td>
+                        <form>
+                            <p><input type="float" name="nota">
+                        </form>
+                    </td>
+                  </tr>
+  
+                <button type="button" class="btn3 btn-success">Make prediction</button>
+  
+                </tbody>
+              </table>
+            </div>   
+      </footer>
+   </body>
+  </html>
+  
+   
