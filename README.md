@@ -1,4 +1,4 @@
-#MyUPC
+# MyUPC
 Proyecto de la HACKATON2023 organizado por la UPC en mayo de 2023.
 
 Este proyecto pretende ser una mejor plataforma de organización para los alumnos de la upc. Proporcionando horarios bien establecidos, recordatorios y el punto más potente: un recomendador de plan académico basado en IA (no llegó a implementarse, pero esa era la idea).
